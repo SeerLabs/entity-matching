@@ -36,19 +36,21 @@ authors table format:
 
 2. Reference papers must be indexed by Elastic search
 
-Reference papers are indexed with the [index_reference_papers.py](index_reference_papers.py) Python script and this file can run by :
+Reference papers are indexed with the 'index_reference_papers.py' Python script and this file can run by :
 $ python index_reference_papers.py 
-Don’t forget to set configuration settings at the beginning of the file for the database credentials. 
+Don’t forget to set configurations the beginning of the file for the database credentials. 
 
-3. Configurations in ‘header_configurations.txt’ must be set:
+3. Configurations of HMM model must be set:
 
-These configurations are defined in 'configurations.txt'. 
+These configurations are defined in 'header_configurations.txt' file. 
 This file contains the following information:
  	1. Reference and target database credentials 
-	2. Name and the port of the reference index in Elastic search. 
+	2. Name and the port of the reference index in Elasticsearch. 
 
 4. model can run with the following command:
 	python HMM.py
+
+
 
 Required packages are:
 
