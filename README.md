@@ -10,7 +10,7 @@ Models:
 
 1. [HMM](HMM.py) (Header Matching Model): This model tries to match paper entities across data bases using information existing in the header of the papers including title, abstract, list of authors and venue. This model is used for matching CiteSeerX to digital libraries without citation information such as DBLP, IEEE and Medline. 
 
-[HMM_readme](HMM_README.txt) shows the details for running HMM model. 
+[HMM_readme](HMM/HMM_README.txt) shows the details for running HMM model. 
 
 2. [CMM](CMM.py) (Citation Matching Model): This model leverages citations for matching of the papers if citation information exists. 
 
