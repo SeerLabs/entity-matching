@@ -4,7 +4,7 @@ In this project, we attempt to develop a machine learning (ML) based method to m
 
 Models:
 
-[HMM](HMM.py) (Header Matching Model): This model tries to match paper entities across data bases using information existing in the header of the papers including title, abstract, list of authors and venue. THis model is used for matching CiteSeerX to digital libraries without citation information such as DBLP, IEEE and Medline.
+[HMM](HMM.py) (Header Matching Model): This model tries to match paper entities across data bases using information existing in the header of the papers including title, abstract, list of authors and venue. This model is used for matching CiteSeerX to digital libraries without citation information such as DBLP, IEEE and Medline.
 
 [CMM](CMM.py) (Citation Matching Model): This model leverages citations for matching of the papers if citation information exists. 
 
