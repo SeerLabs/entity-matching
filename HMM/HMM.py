@@ -113,7 +113,7 @@ def find_match(queue, clf):
             print(sys.exc_info()[0])
             print("-" * 60)
 
-clf = joblib.load('HMM.pkl')
+clf = joblib.load('./../models/HMM.pkl')
 
 processes =[]
 for i in range(int(conf['numberOfParallelProcesses'])):
