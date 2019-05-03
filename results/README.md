@@ -2,11 +2,11 @@
 
 This direcotry contains the matching pairs between CiteSeeX and other digital libraries including: DBLP, Medline and Web of Science(WoS).
 
-[DBLP_matches.tar.gz](DBLP_matches.tar.gz) file contains the matchig pais between CiteSeeX and DBLP.
+[DBLP](DBLP) directory contains the matchig pairs between CiteSeeX and DBLP.
 
-[Medline_matches.tar.gz](Medline_matches.tar.gz) file contains the matchig pais between CiteSeeX and Medline.
+[Medline](Medline) directory contains the matchig pairs between CiteSeeX and Medline.
 
-[Wos_matches.tar.gz](Wos_matches.tar.gz) file contains the matchig pais between CiteSeeX and WoS.
+[WoS](WoS) directory contains the matchig pairs between CiteSeeX and WoS.
 
 
 
